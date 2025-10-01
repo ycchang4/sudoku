@@ -1,6 +1,6 @@
 # Sudoku Web Project
 
-Welcome to the **Sudoku Web Project**! This is a simple interactive website where users can play Sudoku, read the rules, and explore different game modes. This project is built using **HTML, CSS, and JavaScript** and is designed to be mobile-friendly and visually appealing.
+Welcome to the **Sudoku Web Project**! This is a simple interactive website where users can play Sudoku, read the rules, and explore different game modes. This project is built using **HTML, CSS, and JavaScript (future)** and is designed to be mobile-friendly and visually appealing.
 
 ## Live Demo
 
