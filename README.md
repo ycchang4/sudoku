@@ -1,3 +1,18 @@
-# sudoku
-https://ycchang4.github.io/sudoku/
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.saatchiart.com%2Fen-ht%2Fart%2FMixed-Media-Sudoku-9x9-1-89x9-1-14%2F314638%2F2165978%2Fview%3Fsrsltid%3DAfmBOoohUtq214_rswrglL4rpSIr1gQ5vCJiidGTG4UpUbu5n3MWnNvN&psig=AOvVaw0gzTR56rqZGvjBdwZ2zvIO&ust=1759382620129000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCKi6ypKhgpADFQAAAAAdAAAAABAE
+# Sudoku Web Project
+
+Welcome to the **Sudoku Web Project**! This is a simple interactive website where users can play Sudoku, read the rules, and explore different game modes. This project is built using **HTML, CSS, and JavaScript** and is designed to be mobile-friendly and visually appealing.
+
+## Live Demo
+
+Check out the live project here: [Sudoku Web Project](https://ycchang4.github.io/sudoku/)
+
+
+## Technologies Used
+
+- HTML5
+- CSS3
+
+## Credits
+
+Image Credit: [Mixed Media Sudoku](https://www.saatchiart.com/en-ht/art/Mixed-Media-Sudoku-9x9-1-89x9-1-14/314638/2165978/view)
+If there is any copyright violation, please contact me and I will promptly remove or replace the image.
