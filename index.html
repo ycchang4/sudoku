@@ -1,26 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sudoku</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Home</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>My Project</h1>
-    <p>Short tagline about the project.</p>
-    <nav>
-      <a href="https://<your-username>.github.io/">Portfolio</a> |
-      <a href="https://<your-username>.github.io/other-project/">Other project</a>
+    <nav class = "navbar">
+        <ul class = "nav-links">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="selection/selection.html" class="nav-link">Selection</a></li>
+            <li><a href="rules/rules.html" class="nav-link">Rules</a></li>
+            <li><a href="highscores/highscores.html" class="nav-link">High Scores</a></li>
+            <li><a href="login/login.html" class="nav-link">Login</a></li>
+            <li><a href="register/register.html" class="nav-link">Register</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <h2>About</h2>
-    <p>Describe the project here.</p>
-  </main>
-
-  
-  </footer>
+    <div class = "container home">
+        <h1>Sudoku Games</h1>
+        <div class="img">
+            <img src="sudoku.png">
+        </div>
+        <a href="selection/selection.html" class="cta-button">Play Games</a>
+    </div>
 </body>
+
 </html>
