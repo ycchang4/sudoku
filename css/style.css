@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +82,7 @@ body {
     text-align: center;
     padding: 3rem 0;
     font-weight: 700;
-    color:rgb(104, 104, 13);
+    color:rgb(177, 142, 96);
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -151,6 +150,16 @@ h1 {
     margin-bottom: 2rem;
     font-size: 2.5rem;
 }
+p {
+    margin-top: 10px;
+    color: rgb(145, 93, 30);
+    text-align: center;
+}
+a {
+    color: rgb(145, 93, 30);
+    font-weight: 600;
+}
+
 
 
 

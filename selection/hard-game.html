@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Games</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/games-style.css">
+</head>
+<body>
+    <nav class = "navbar">
+        <ul class = "nav-links">
+            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="selection.html" class="nav-link active">Selection</a></li>
+            <li><a href="../rules/rules.html" class="nav-link">Rules</a></li>
+            <li><a href="../highscores/highscores.html" class="nav-link">High Scores</a></li>
+            <li><a href="../login/login.html" class="nav-link">Login</a></li>
+            <li><a href="../register/register.html" class="nav-link">Register</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Game Mode: Hard</h1>
+
+        <div class="timer" aria-hidden="true">
+            <div>Time</div>
+            <div class="time-display" title="This is a visual fake timer">
+            <span class="minutes">05</span><span class="colon">:</span><span class="seconds">23</span>
+            </div>
+        </div>
+        <div class="board-card">
+
+        <table class="sudoku" role="grid" aria-label="Sudoku board">
+
+            <!-- Row 1 -->
+            <tr>
+            <td class="box-top box-left"><input readonly value="7" /></td>
+            <td class="box-top"><input /></td>
+            <td class="box-top box-right"><input /></td>
+            <td class="box-top"><input readonly value="8"/></td>
+            <td class="box-top"><input /></td>
+            <td class="box-top box-right"><input/></td>
+            <td class="box-top"><input readonly value="4" /></td>
+            <td class="box-top"><input /></td>
+            <td class="box-top box-right"><input readonly value="1" /></td>
+            </tr>
+
+
+
+            <tr>
+            <td class="box-left"><input /></td>
+            <td><input/></td>
+            <td class="box-right"><input readonly value="9"/></td>
+            <td><input/></td>
+            <td><input readonly value="5"/></td>
+            <td class="box-right"><input /></td>
+            <td><input/></td>
+            <td><input /></td>
+            <td class="box-right"><input/></td>
+            </tr>
+
+
+            <tr>
+            <td class="box-bottom box-left"><input /></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom box-right"><input /></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom box-right"><input /></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom"><input readonly value="9"/></td>
+            <td class="box-bottom box-right"><input/></td>
+            </tr>
+
+
+            <!--row 4-->
+
+            <tr>
+            <td class="box-top box-left"><input/></td>
+            <td class="box-top"><input /></td>
+            <td class="box-top box-right"><input /></td>
+            <td class="box-top"><input/></td>
+            <td class="box-top"><input readonly value="2"/></td>
+            <td class="box-top box-right"><input/></td>
+            <td class="box-top"><input readonly value="3" /></td>
+            <td class="box-top"><input /></td>
+            <td class="box-top box-right"><input /></td>
+            </tr>
+
+            <tr>
+            <td class="box-left"><input /></td>
+            <td><input readonly value="1"/></td>
+            <td class="box-right"><input/></td>
+            <td><input readonly value="4"/></td>
+            <td><input/></td>
+            <td class="box-right"><input /></td>
+            <td><input/></td>
+            <td><input readonly value="6" /></td>
+            <td class="box-right"><input/></td>
+            </tr>
+
+            <tr>
+            <td class="box-bottom box-left"><input readonly value="6"/></td>
+            <td class="box-bottom"><input readonly value="4"/></td>
+            <td class="box-bottom box-right"><input /></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom"><input readonly value="7"/></td>
+            <td class="box-bottom box-right"><input readonly value="8"/></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom box-right"><input/></td>
+            </tr>
+
+            <!--row7-->
+             <tr>
+            <td class="box-top box-left"><input/></td>
+            <td class="box-top"><input /></td>
+            <td class="box-top box-right"><input /></td>
+            <td class="box-top"><input/></td>
+            <td class="box-top"><input"/></td>
+            <td class="box-top box-right"><input/></td>
+            <td class="box-top"><input/></td>
+            <td class="box-top"><input readonly value="5"/></td>
+            <td class="box-top box-right"><input /></td>
+            </tr>
+
+            <tr>
+            <td class="box-left"><input /></td>
+            <td><input readonly value="3"/></td>
+            <td class="box-right"><input/></td>
+            <td><input readonly value="2"/></td>
+            <td><input/></td>
+            <td class="box-right"><input readonly value="7"/></td>
+            <td><input readonly value="8"/></td>
+            <td><input /></td>
+            <td class="box-right"><input/></td>
+            </tr>
+
+            <tr>
+            <td class="box-bottom box-left"><input/></td>
+            <td class="box-bottom"><input readonly value="8"/></td>
+            <td class="box-bottom box-right"><input /></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom box-right"><input/></td>
+            <td class="box-bottom"><input readonly value="2"/></td>
+            <td class="box-bottom"><input/></td>
+            <td class="box-bottom box-right"><input/></td>
+            </tr>
+
+
+
+
+        </table>
+        <p>Here is an easier version: <a href = "easy-game.html">here&#x1F383</a></p>
+        </div>
+
+        
+
+
+        
+    </div>
+
+
+
+</body>
+</html>
